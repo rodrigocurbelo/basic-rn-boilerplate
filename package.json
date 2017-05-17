@@ -1,0 +1,22 @@
+{
+  "name": "basic-RN-boilerplate",
+  "version": "0.0.1",
+  "description": "Hello Expo!",
+  "author": "Rodrigo Curbelo <rodrigocurbelo14@gmail.com>",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "expo": "^15.0.2",
+    "lodash": "^4.17.4",
+    "react": "~15.4.0",
+    "react-native": "https://github.com/exponent/react-native/archive/sdk-15.0.0.tar.gz",
+    "react-navigation": "^1.0.0-beta.7",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-form": "^6.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-rallycoding": "^3.2.0"
+  }
+}
