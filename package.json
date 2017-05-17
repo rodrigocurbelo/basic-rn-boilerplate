@@ -5,6 +5,14 @@
   "author": "Rodrigo Curbelo <rodrigocurbelo14@gmail.com>",
   "private": true,
   "main": "main.js",
+  "scripts": {
+    "eslint": "eslint --fix .",
+    "add-all": "git add --all"
+  },
+  "pre-commit": [
+    "eslint",
+    "add-all"
+  ],
   "dependencies": {
     "expo": "^15.0.2",
     "lodash": "^4.17.4",
@@ -17,7 +25,10 @@
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-rallycoding": "^3.2.0"
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "eslint-plugin-react": "^7.0.1",
+    "pre-commit": "^1.2.2"
   }
 }
