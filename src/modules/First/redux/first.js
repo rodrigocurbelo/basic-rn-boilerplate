@@ -1,7 +1,9 @@
 export const PLUS_ONE = 'first/PLUS_ONE';
 
 export function plusOne() {
-  return { type: PLUS_ONE };
+  return (dispatch) => {
+    dispatch({ type: PLUS_ONE });
+  };
 }
 
 const initialState = {
